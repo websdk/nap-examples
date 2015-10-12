@@ -1,0 +1,22 @@
+{
+  "name": "nap-examples",
+  "version": "0.0.1",
+  "description": "Examples of how to use @websdk/nap",
+  "dependencies": {
+    "@websdk/nap": "0.9.7",
+    "d3": "3.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websdk/nap-examples.git"
+  },
+  "author": "Samuel Williams <sam@ziazoo.co.uk> (http://www.ziazoo.co.uk)",
+  "contributors": [
+    "Marcus Stade <marcus@stade.se> (http://madebystade.se)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websdk/nap-examples/issues"
+  },
+  "homepage": "https://github.com/websdk/nap-examples#readme"
+}
