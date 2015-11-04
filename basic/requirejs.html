@@ -6,16 +6,12 @@
   <script type="text/javascript">
     var require = {
       paths: {
-        "nap": "../node_modules/@websdk/nap/lib/nap"
+        "@websdk/rhumb": "../node_modules/@websdk/rhumb/lib/rhumb"
+      , "@websdk/nap": "../node_modules/@websdk/nap/lib/nap"
       , "d3": "../node_modules/d3/d3"
       }
     , shim: {
-        "nap": {
-          exports: "nap"  
-        }
-      , "d3": {
-          exports: "d3"
-        }
+        "d3": { exports: "d3" }
       }
     }
   </script>
@@ -25,7 +21,7 @@
   <script type="text/javascript">
     define(
       "example"
-    , [ "nap"
+    , [ "@websdk/nap"
       , "d3"
       ]
     , function(nap, d3) {

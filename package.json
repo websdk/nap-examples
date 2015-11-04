@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Examples of how to use @websdk/nap",
   "dependencies": {
-    "@websdk/nap": "0.9.7",
+    "@websdk/nap": "0.9.8",
+    "@websdk/rhumb": "0.3.4",
     "d3": "3.5.6"
   },
   "repository": {
